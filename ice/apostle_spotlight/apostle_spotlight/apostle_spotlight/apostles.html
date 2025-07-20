@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apostles Spotlights</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("images/christus.webp");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    .card {
+      background-color: rgba(0, 0, 0, 0.6); 
+      border: 3px solid black;
+      border-radius: 50px;
+      padding: 20px;
+      margin: 40px auto;
+      max-width: 900px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .first, .quorm {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .first img, .quorm img {
+      width: 100px;
+      height: 150px;
+      object-fit: cover;
+      border: 5px solid white;
+      border-radius: 50px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+    .quorm img {
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <header>
+      <h1>First Presidency</h1>
+    </header>
+
+    <div class="first">
+      <img src="images/oaks.webp" alt="headshot of Dallin H. Oaks" />
+      <img src="images/nelson.webp" alt="headshot of Russell M. Nelson" />
+      <img src="images/eyring.webp" alt="headshot of Henry B. Eyring" />
+    </div>
+
+    <p>The Quorum of the Twelve Apostles</p>
+
+    <div class="quorm">
+      <img src="images/holland.webp" alt="headshot of Jeffrey R. Holland" />
+      <img src="images/uchtdorf.webp" alt="headshot of Dieter F. Uchtdorf" />
+      <img src="images/bednar.webp" alt="headshot of David A. Bednar" />
+      <img src="images/cook.webp" alt="headshot of Quentin L. Cook" />
+      <img src="images/christofferson.webp" alt="headshot of D. Todd Christofferson" />
+      <img src="images/anderson.webp" alt="headshot of Neil L. Andersen" />
+      <img src="images/rasband.webp" alt="headshot of Ronald A. Rasband" />
+      <img src="images/stevenson.webp" alt="headshot of Gary E. Stevenson" />
+      <img src="images/renlund.webp" alt="headshot of Dale G. Renlund" />
+      <img src="images/gong.webp" alt="headshot of Gerrit W. Gong" />
+      <img src="images/soares.webp" alt="headshot of Ulisses Soares" />
+      <img src="images/kearon.webp" alt="headshot of Patrick Kearon" />
+    </div>
+  </div>
+</body>
+</html>

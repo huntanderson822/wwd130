@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<style>
+.main {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+table.minimalistBlack {
+  border: 3px solid #000000;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.minimalistBlack td, table.minimalistBlack th {
+  border: 1px solid #000000;
+  padding: 5px 4px;
+}
+table.minimalistBlack tbody td {
+  font-size: 13px;
+}
+table.minimalistBlack thead {
+  background: #1003ff;
+  background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+  background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+  background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+  border-bottom: 3px solid #000000;
+}
+table.minimalistBlack thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+}
+form {
+  background-color: aliceblue;
+  text-align: left;
+  display:grid;
+  grid-template-columns: auto;
+  max-width: 20%;
+  row-gap: 10px;
+}
+</style>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <!-- Add your devotional content here -->
+        <p>Hunter Anderson's favorite BYUI devotionals!</p>
+          <table class="minimalistBlack">
+            <tr>
+              <th>Speaker</th>
+              <th>Title</th>
+              <th>Location</th>
+              <th>Year</th>
+            </tr>
+            <tr>
+              <th>Ulisees S. Soares</th>
+              <th>Drawing strength from the Savior's love</th>
+              <th>BYU-I</th>
+              <th>2025</th>
+            </tr>
+            <tr>
+              <th>Brad Wilcox</th>
+              <th>His Grace is Sufficent</th>
+              <th>BYU-Provo</th>
+              <th>2011</th>
+            </tr>
+            <tr>
+              <th>Jeffery R. Holland</th>
+              <th>The Inconvinient Messiah</th>
+              <th>BYU-Provo</th>
+              <th>1982</th>
+            </tr>
+            <tr>
+              <th>Tad R. Calister</th>
+              <th>The Book of Mormon: Man-Made or God-Given</th>
+              <th>BYU-Provo</th>
+              <th>2016</th>
+            </tr>
+          </table>
+          <form>
+            <label for="sname"><strong>Speakers Name:</strong></label>
+            <input for="text" id="sname" name="sname" placeholder="Speaker here"<br>
+            
+            <label for="title"><strong>Title:</strong></label>
+            <input for="text" id="title" name="title" placeholder="Title here"<br>
+            
+            <label for="location"><strong>Location:</strong></label>
+            <input for="text" id="location" name="location" placeholder="Location here"<br>
+            
+            <label for="year"><strong>Year:</strong></label>
+            <input for="text" id="year" name="year" placeholder="Year here"<br>
+          </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
